@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,45 +8,100 @@
 	<script src="https://cdn.tailwindcss.com"></script>
 	<script>
 		tailwind.config = {
-		  theme: {
-			extend: {
-			  colors: {
-				clifford: '#da373d',
-			  }
+			theme: {
+				extend: {
+					colors: {
+						clifford: '#da373d',
+					}
+				}
 			}
-		  }
 		}
-	  </script>	
+	</script>
+	<style>
+		body {
+			background-image: url('./img/IMG_5030-scaled.jpeg');
+		}
+
+		.icons {
+			display: grid;
+			place-items: center;
+		}
+		@media screen and (max-width: 600px) {
+			.mobile-hidden {
+				display: none;
+			}
+		}
+	</style>
 	<title>Soccer cup um6p 1337</title>
 
 </head>
 
-<body class="bg-gray-900 h-screen w-full p-10 ">
-	<h1 class="text-6xl font-bold text-center text-white my-10">
-		Soccer cup um6p 1337
-	</h1>
+<body class="bg-white h-screen w-full">
+	<div class="bg-white navbar z-40 shadow-lg sticky top-0">
+		<div class="mx-auto container  z-50">
+			<nav class="bg-white flex py-5 px-4 md:px-12 justify-between items-center z-50 " id="navbar">
+				<h1 class="text-dark font-bold uppercase">
+					<img src="./img/UM6P__LOGO-POLE-SPORT-1.png" alt="" width="70px">
+				</h1>
+				<ul class="hidden lg:flex justify-between items-center" id="nav-links">
+					<li id="nav-link" class="main-link group font-poppins mr-2">
+						<img src="./img/t8F5Ai57_400x400.jpeg" alt="" width="70px">
+					</li>
+					<li id="nav-link" class="main-link group font-poppins mr-2">
+						<img src="./img/download.png" alt="" width="80px">
+					</li>
+				</ul>
 
-	<div class="container flex mx-auto gap-5 flex-wrap p-5	">
-			<div class="flex-grow">
-				<h2 class="text-4xl font-bold text-center text-white my-4 ">
-					Boys
-				</h2>
-				<ul class="">
-					<a href="https://www.google.com" class=""></a><li class=" text-white h-16 flex justify-center items-center bg-gray-700 hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">FootBall Tournament</li></a>
-					<a href="https://www.google.com" class=""></a><li class=" text-white h-16 flex justify-center items-center bg-gray-700 hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">VoleyBall Tournament</li></a>
-					<a href="https://www.google.com" class=""></a><li class=" text-white h-16 flex justify-center items-center bg-gray-700 hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">BasketBall Tournament</li></a>
-				</ul>
-			</div>
-			<div class="flex-grow">
-				<h2 class="text-4xl font-bold text-center text-white my-4 ">
-					Boys
-				</h2>
-				<ul class="">
-					<a href="https://www.google.com" class=""></a><li class=" text-white h-16 flex justify-center items-center bg-gray-700 hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">FootBall Tournament</li></a>
-					<a href="https://www.google.com" class=""></a><li class=" text-white h-16 flex justify-center items-center bg-gray-700 hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">VoleyBall Tournament</li></a>
-					<a href="https://www.google.com" class=""></a><li class=" text-white h-16 flex justify-center items-center bg-gray-700 hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">BasketBall Tournament</li></a>
-				</ul>
-			</div>
-</div>
+				<img src="./img/download.png" width="70px" class="cursor-pointer lg:hidden"
+					>
+			</nav>
+		</div>
+	</div>
+	<div class="container flex mx-auto   flex-wrap mt-20 px-20">
+		<div class="flex-grow">
+			<h2 class="text-4xl font-bold text-center icons text-gray-300 my-4 ">
+				<img src="./img/boy.png" alt="" width="100px">
+			</h2>
+			<ul class="pt-2 pt-2 grid place-items-center">
+				<a href="https://www.google.com" class=""></a>
+				<li
+					class=" text-white h-16 flex justify-center items-center w-80  bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">
+					FootBall Tournament</li></a>
+				<a href="https://www.google.com" class=""></a>
+				<li
+					class=" text-white h-16 flex justify-center items-center w-80  bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">
+					VoleyBall Tournament</li></a>
+				<a href="https://www.google.com" class=""></a>
+				<li
+					class=" text-white h-16 flex justify-center items-center w-80  bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">
+					BasketBall Tournament</li></a>
+			</ul>
+		</div>
+		<div class="flex-grow">
+			<h2 class="text-4xl font-bold text-center icons text-gray-300 my-4 ">
+				<img src="./img/girl.png" alt="" width="100px">
+			</h2>
+			<ul class="pt-2 pt-2 grid place-items-center">
+				<a href="https://www.google.com" class=""></a>
+				<li
+					class=" text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">
+					FootBall Tournament</li></a>
+				<a href="https://www.google.com" class=""></a>
+				<li
+					class=" text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">
+					VoleyBall Tournament</li></a>
+				<a href="https://www.google.com" class=""></a>
+				<li
+					class=" text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md ">
+					BasketBall Tournament</li></a>
+			</ul>
+		</div>
+	</div>
+	<div class="pt-20">
+		<div class="grid place-items-center mobile-hidden">
+			<img src="./img/logo.png" class="relative top-20" alt="" width="10%">
+		</div>
+	</div>
 </body>
+
 </html>
