@@ -22,13 +22,12 @@
 	</script>
 	<style>
 		body {
-			background-size: cover;
 			background-image: url("./img/IMG_5030-scaled.jpeg");
+			background-repeat: repeat-y;
 		}
-
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 800px) {
 			.mobile-hidden {
-				display: none;
+				display: none !important;
 			}
 		}
 	</style>
@@ -36,7 +35,7 @@
 </head>
 
 <body class="bg-white">
-	<div class="bg-white navbar z-40 shadow-lg sticky top-0">
+	<header class="bg-white navbar z-40 shadow-lg sticky top-0">
 		<div class="mx-auto container z-50">
 			<nav class="bg-white flex py-5 px-4 md:px-12 justify-between items-center z-50" id="navbar">
 				<span>
@@ -54,7 +53,8 @@
 				<img src="./img/download.png" width="70px" class="cursor-pointer lg:hidden" />
 			</nav>
 		</div>
-	</div>
+	</header>
+	<section class="mb-4 pb-4">
 	<h1 class="text-center text-4xl  text-white font-semibold my-10 uppercase p-3">
 		Coupe de l'um6p 2022
 	</h1>
@@ -155,11 +155,10 @@
 			</ul>
 		</div>
 	</div>
-	<div >
-		<div class="grid place-items-center mobile-hidden">
-			<img src="./img/logo.png" class="relative top-20" alt="" width="10%" />
-		</div>
+	<div class="grid place-items-center mobile-hidden">
+		<img src="./img/logo.png" class="relative top-20" alt="" width="10%" />
 	</div>
+	</section>
 </body>
 
 </html>
