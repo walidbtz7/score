@@ -21,9 +21,12 @@
 		};
 	</script>
 	<style>
-		body {
-			background-image: url("./img/IMG_5030-scaled.jpeg");
-			background-repeat: repeat-y;
+		.bg {
+			background: url("./img/background.jpg") no-repeat center bottom fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 		}
 		@media screen and (max-width: 800px) {
 			.mobile-hidden {
@@ -34,7 +37,7 @@
 	<title>Soccer cup</title>
 </head>
 
-<body class="bg-white">
+<body class="bg-white bg">
 	<header class="bg-white navbar z-40 shadow-lg sticky top-0">
 		<div class="mx-auto container z-50">
 			<nav class="bg-white flex py-5 px-4 md:px-12 justify-between items-center z-50" id="navbar">
@@ -45,120 +48,118 @@
 					<li id="nav-link" class="main-link group font-poppins mr-2">
 						<img src="./img/t8F5Ai57_400x400.jpeg" alt="" width="70px" />
 					</li>
-					<li id="nav-link" class="main-link group font-poppins mr-2">
-						<img src="./img/download.png" alt="" width="80px" />
-					</li>
 				</ul>
-
-				<img src="./img/download.png" width="70px" class="cursor-pointer lg:hidden" />
+				<img src="./img/t8F5Ai57_400x400.jpeg" alt="" width="70px" class="cursor-pointer lg:hidden" />
 			</nav>
 		</div>
 	</header>
+	<div >
 	<section class="mb-4 pb-4">
-	<h1 class="text-center text-4xl  text-white font-semibold my-10 uppercase p-3">
-		Coupe de l'um6p 2022
-	</h1>
-	<a href="https://docs.google.com/spreadsheets/d/1wD_y1Z1zUNcJaJAmILgT0ZUyHGSmk0EV_80XX9p0aKI/edit?usp=sharing"
-		class="text-white h-16 flex justify-center items-center w-80 bg-red hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md mx-auto">
-		Live scores
-		<img class="fill-current  ml-3"src="./img/live.svg" alt="live" width="30px">
-	</a>
-	<div class="container flex mx-auto gap-5 flex-wrap mt-10">
-		<div class="flex-grow">
-			<h2 class="text-4xl font-bold text-center grid place-items-center text-gray-300 mt-4 mb-1">
-				<img src="./img/boy.png" alt="" width="100px" />
-			</h2>
-			<h2 class="text-2xl font-bold text-center grid place-items-center text-gray-300 mt-1 mb-4">
-				Garçons
-			</h2>
-			<ul class="pt-2 grid place-items-center">
-				<a href="https://play.toornament.com/fr/tournaments/6145189749101445120/stages/6145195916604530688/groups/6145195917443391505/"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Football
-					</li>
-				</a>
-				<a href="https://play.toornament.com/fr/tournaments/6151635173513699328/stages/6151642679076364288/groups/6255417356661604354/"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Volley-ball
-					</li>
-				</a>
-				<a href="https://play.toornament.com/fr/tournaments/6151674591463727104/stages/6154885706491043840/groups/6255477024698171394/"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Handball
-					</li>
-				</a>
-				<a href="https://play.toornament.com/fr/tournaments/6151683233771438080/stages/6276346453999656960/groups/6276346454737854473/"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Basket-ball 5v5
-					</li>
-				</a>
-				<a href="https://play.toornament.com/fr/tournaments/6151692345708552192/stages/6154938641784569856/groups/6154938642724093967/"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Basket-ball 3v3
-					</li>
-				</a>
-			</ul>
+		<div class="pt-20">
+			<h1 class="text-center text-4xl  text-white font-semibold uppercase p-3">
+				Coupe de l'um6p 2022
+			</h1>
+			<a href="https://drive.google.com/file/d/17KLMth2PvdPniidrMoIFNsXtM1O11r3r/view?usp=share_link"
+			class="text-white h-16 flex justify-center items-center w-80 bg-red hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md mx-auto">
+			Live scores
+			<img class="fill-current  ml-3"src="./img/live.svg" alt="live" width="30px">
+		</a>
 		</div>
-		<div class="flex-grow">
-			<h2 class="text-4xl font-bold text-center grid place-items-center text-gray-300 my-4">
-				<img src="./img/girl.png" alt="" width="100px" />
-			</h2>
-			<h2 class="text-2xl font-bold text-center grid place-items-center text-gray-300 mt-1 mb-4">
-				Filles
-			</h2>
-			<ul class="pt-2  grid place-items-center">
-				<a href="https://play.toornament.com/fr/tournaments/6145211207332618240/stages/6153206023253860352/groups/6153206024025612301/"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Football
-					</li>
-				</a>
-				<a href="https://play.toornament.com/fr/tournaments/6151670857355673600/stages/6154805781333737472/groups/6154805782105489421/				"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Volley-ball
-					</li>
-				</a>
-				<a href="https://play.toornament.com/fr/tournaments/6151679425067622400/stages/6154886904069414912/groups/6255519500615098368/"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Hand-ball
-					</li>
-				</a>
-				<a href="https://play.toornament.com/fr/tournaments/6151683233771438080/stages/6153233127987634176/groups/6153233128725831691/"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Basket-ball 5v5
-					</li>
-				</a>
-				<a href="https://play.toornament.com/fr/tournaments/6151696213334671360/stages/6258769156676878336/groups/6258769157482184717/"
-					class="">
-					<li
-						class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
-						Basket-ball 3v3
-					</li>
-				</a>
-			</ul>
+		<div class="container flex mx-auto gap-5 flex-wrap mt-10">
+			<div class="flex-grow">
+				<h2 class="text-4xl font-bold text-center grid place-items-center text-gray-300 mt-4 mb-1">
+					<img src="./img/boy.png" alt="" width="100px" />
+				</h2>
+				<h2 class="text-2xl font-bold text-center grid place-items-center text-gray-300 mt-1 mb-4">
+					Garçons
+				</h2>
+				<ul class="pt-2 grid place-items-center">
+					<a href="https://play.toornament.com/fr/tournaments/6145189749101445120/stages/6145195916604530688/groups/6145195917443391505/"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Football
+						</li>
+					</a>
+					<a href="https://play.toornament.com/fr/tournaments/6151635173513699328/stages/6151642679076364288/groups/6255417356661604354/"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Volley-ball
+						</li>
+					</a>
+					<a href="https://play.toornament.com/fr/tournaments/6151674591463727104/stages/6154885706491043840/groups/6255477024698171394/"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Handball
+						</li>
+					</a>
+					<a href="https://play.toornament.com/fr/tournaments/6151683233771438080/stages/6276346453999656960/groups/6276346454737854473/"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Basket-ball 5v5
+						</li>
+					</a>
+					<a href="https://play.toornament.com/fr/tournaments/6151692345708552192/stages/6154938641784569856/groups/6154938642724093967/"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Basket-ball 3v3
+						</li>
+					</a>
+				</ul>
+			</div>
+			<div class="flex-grow">
+				<h2 class="text-4xl font-bold text-center grid place-items-center text-gray-300 my-4">
+					<img src="./img/girl.png" alt="" width="100px" />
+				</h2>
+				<h2 class="text-2xl font-bold text-center grid place-items-center text-gray-300 mt-1 mb-4">
+					Filles
+				</h2>
+				<ul class="pt-2  grid place-items-center">
+					<a href="https://play.toornament.com/fr/tournaments/6145211207332618240/stages/6153206023253860352/groups/6153206024025612301/"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Football
+						</li>
+					</a>
+					<a href="https://play.toornament.com/fr/tournaments/6151670857355673600/stages/6154805781333737472/groups/6154805782105489421/				"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Volley-ball
+						</li>
+					</a>
+					<a href="https://play.toornament.com/fr/tournaments/6151679425067622400/stages/6154886904069414912/groups/6255519500615098368/"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Hand-ball
+						</li>
+					</a>
+					<a href="https://play.toornament.com/fr/tournaments/6151687287382769664/stages/6154785603670581248/groups/6154785604408778765/"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Basket-ball 5v5
+						</li>
+					</a>
+					<a href="https://play.toornament.com/fr/tournaments/6151696213334671360/stages/6258769156676878336/groups/6258769157482184717/"
+						class="">
+						<li
+							class="text-white h-16 flex justify-center items-center w-80 bg-[#85b544] hover:bg-gray-800 cursor-pointer my-4 px-4 rounded-md">
+							Basket-ball 3v3
+						</li>
+					</a>
+				</ul>
+			</div>
 		</div>
-	</div>
-	<div class="grid place-items-center mobile-hidden">
-		<img src="./img/logo.png" class="relative top-20" alt="" width="10%" />
-	</div>
+
 	</section>
+	</div>
 </body>
 
 </html>
